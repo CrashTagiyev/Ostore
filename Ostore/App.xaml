@@ -1,0 +1,9 @@
+﻿<Application x:Class="Ostore.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Ostore"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:Product x:Key="ProductResource" />
+    </Application.Resources>
+</Application>
